@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cow']
+
+roboflow:
+  workspace: plf
+  project: cows-w7cx4
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plf/cows-w7cx4/dataset/2
